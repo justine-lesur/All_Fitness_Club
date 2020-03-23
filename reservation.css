@@ -1,0 +1,240 @@
+/* CSS Document */
+html {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	margin: 0px;
+}
+
+@font-face {
+	font-family: "Montserrat-Medium";
+	src: url("font/Montserrat-Medium.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "Montserrat-Black";
+	src: url("font/Montserrat-Black.ttf") format("truetype");
+}
+
+header {
+	color: white;
+	text-decoration: none;
+	display: flex;
+	justify-content: space-around;
+	font-family: "Montserrat-Medium";
+	font-size: 20px;
+
+	
+}
+
+
+nav {
+	justify-content: space-around;
+	width: 100vw;
+	margin: 0px;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+	list-style-type: none;
+	font-family: "Montserrat-Medium";
+}
+
+button {
+	background-color: #FFD31E;
+	border-color: #FFD31E;
+	width: 270px;
+	height: 70px;
+	border-radius: 40px;
+}
+
+.reserver-bouton {
+	color: black;
+	font-size: 22px;
+}
+
+ul {
+	text-decoration: none;
+	list-style-type: none;
+	display: flex;
+	justify-content: space-around;
+}
+
+.body1 {
+	background-image: url("img/photo1.jpg");
+	margin: 0px;
+	background-size: 110%;
+	width: 100vw;
+	height: 105vh;
+	
+}
+
+.body2 {
+	background-image: url("img/photo2.jpg");
+	margin: 0px;
+	background-size: 110%;
+	width: 100vw;
+	height: 105vh;
+	
+}
+
+.body3 {
+	background-image: url("img/photo3.jpg");
+	margin: 0px;
+	background-size: 110%;
+	width: 100vw;
+	height: 110vh;
+	
+}
+
+.body4 {
+	background-image: url("img/photo3.jpg");
+	margin: 0px;
+	background-size: 110%;
+	width: 100vw;
+	height: 110vh;
+	
+}
+
+header {
+	margin: 0px;
+}
+
+.text {
+	height: 100vh;
+	padding-top: 5em;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding-left: 8em;
+	justify-content: center;
+}
+
+.titre-fitness {
+	font-family: "Montserrat-Black";
+	color: white;
+	font-size: 65px;
+}
+
+footer {
+	background-color: black;
+	height: 5em;
+	padding-top: 1em;
+}
+
+.right {
+	color: grey;
+	font-family: "Montserrat-Medium";
+	text-align: center;
+}
+
+.formulairepages {
+	height: 90vh;
+	width: 40vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.formulairepages2 {
+	height: 100vh;
+	width: 40vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.inscription {
+	color: white;
+	font-size: 50px;
+	font-family: "Montserrat-Black";
+}
+
+input {
+
+}
+
+.largeur {
+	width: 300px;
+	height: 40px;
+	margin-top: 30px;
+	padding-left: 3em;
+}
+
+.largeur2 {
+	width: 337px;
+	height: 47px;
+	margin-top: 30px;
+	padding-left: 3em;
+}
+
+.validation {
+	background-color: #FFD31E;
+	border-color: #FFD31E;
+	border-radius: 40px;
+	margin-top: 1em;
+	width: 280px;
+	height: 55px;
+	font-size: 22px;
+}
+
+.identifiants {
+	color: white;
+	font-family: "Montserrat-Medium";
+	margin-top: 4em;
+	text-align: center;
+}
+
+label {
+    font-family: "Montserrat-Medium";
+	color: white;
+	margin-top: 2em;
+}
+
+.les-reservations {
+	height: 120vh;
+}
+
+
+table {
+	margin-top: 40px;
+	margin-left: 80px;
+	margin-bottom: 85px;
+}
+
+thead {
+	color: white;
+	font-family: "Montserrat-Medium";
+}
+
+th {
+	background-color: #111111;
+	width: 100px;
+	height: 60px;
+}
+
+td {
+	background-color: white;
+	height: 60px;
+}
+
+.heure {
+	color: white;
+	font-family: "Montserrat-Medium";	
+	background-color: #111111;
+	padding-left: 1em;
+}
+
+.event_color {
+	font-size: 12px;
+	text-align: center;
+	padding: 15px;
+	border-color: #FFD31E;
+	background-color: #FFD31E;
+	color: black;
+}
