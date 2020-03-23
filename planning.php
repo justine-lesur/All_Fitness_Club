@@ -75,7 +75,7 @@ session_start();
 											if($joursem == $i && $heure == $l)
 											{
 												$id = $donnees['id'];
-												echo "<a href='reservation.php?id=", $id, "'><div class='event_color'>";
+									echo "<a href='reservation.php?id=", $id, "'><div class='event_color'>";
 												echo $donnees['login'], '<br/>';
 												echo $donnees['titre'];
 												echo '</div></a>';

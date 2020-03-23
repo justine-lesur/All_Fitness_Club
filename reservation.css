@@ -238,3 +238,27 @@ td {
 	background-color: #FFD31E;
 	color: black;
 }
+
+.donnees-reservation {
+	padding-left: 7em;
+	padding-top: 7em;
+}
+
+.reservation_page_info {
+	color: white;
+	font-size: 1.5em;
+}
+
+.mes-donnees {
+	color: white;
+	font-family: "Montserrat-Medium";
+}
+
+.mes-donnees-bold {
+	color: white;
+	font-family: "Montserrat-Black";
+}
+
+.page-reservation {
+	height: 100vh;
+}
